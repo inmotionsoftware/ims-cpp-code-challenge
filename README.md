@@ -2,7 +2,7 @@
 
 ## The Problem
 
-You are a research scientist working in the field of genenomes. You have been tasked with simulating genetic changes to a type of single celled bacteria over several generations. You notice that as genes are combined in your test bacteria they follow some basic **pair insertion** patterns. You just need to work out the pair insertion process over a few generations.
+You are a research scientist working in the field of genetics. You have been tasked with simulating genetic changes to a type of single celled bacteria over several generations. You notice that as genes are combined in your test bacteria they follow some basic **pair insertion** patterns. You just need to work out the pair insertion process over a few generations.
 
 ## The Task
 
