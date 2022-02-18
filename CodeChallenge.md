@@ -16,22 +16,22 @@ NNCB
 The following lines specify the pair insertion rules. A rule like `AB  → C` means that when genes `A` and `B` are adjacent, gene `C` should be inserted between them after a generation.
 
 ```
-TT -> F
-JF -> F
-JJ -> A
-FA -> A
-FT -> J
-TA -> F
-AF -> J
-JT -> A
-TF -> A
-AA -> T
-JA -> T
-FJ -> T
-TJ -> T
-FF -> F
-AJ -> A
-AT -> A
+TT → F
+JF → F
+JJ → A
+FA → A
+FT → J
+TA → F
+AF → J
+JT → A
+TF → A
+AA → T
+JA → T
+FJ → T
+TJ → T
+FF → F
+AJ → A
+AT → A
 ```
 
 Starting with the gene sequence `TAFT` the first step considers the first three pairs
