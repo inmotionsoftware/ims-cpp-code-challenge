@@ -8,7 +8,7 @@ You are a research scientist working in the field of genenomes. You have been ta
 
 The first line is the base genome of the bacteria - This is the starting point of our experiment. 
 ```
-NNCB
+TAFT
 ```
 
 ### Pair insertion rules
