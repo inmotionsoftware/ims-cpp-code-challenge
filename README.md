@@ -2,7 +2,7 @@
 
 ## The Problem
 
-You are a research scientist working in the field of genetics. You have been tasked with simulating genetic changes to a type of single celled bacteria over several generations. You notice that as genes are combined in your test bacteria they follow some basic **pair insertion** patterns. You just need to work out the pair insertion process over a few generations.
+You are a research scientist working in the field of genetics. You have been tasked with simulating genome changes to a type of single celled bacteria over several generations. You notice that as genes are combined in your test bacteria they follow some basic **pair insertion** patterns. You just need to work out the pair insertion process over a few generations.
 
 ## The Task
 
@@ -74,4 +74,4 @@ Apply `40` generations of pair insertion to the gene template and find the most 
 
 # The Code
 
-Your code should be written in clear, clean, standard `C++` free of memory leaks and other errors. It should be easy to read and performant, and demonstrate a solid grasp of the language. Use standard container types as much as possible. It should be free of compile warnings, with no external dependencies. It should compile on either `GCC`, `Clang`, or `VS`. Bonus points if it compiles on all 3.
+Your code should be written in clear, clean, standard `C++` free of memory leaks and other errors. It should be easy to read and performant, and demonstrate a solid grasp of the language. Use standard container types as much as possible. It should be free of compile warnings, with no external dependencies. It should compile on either `GCC`, `Clang`, or `MSVC`. Bonus points if it compiles on all 3.
