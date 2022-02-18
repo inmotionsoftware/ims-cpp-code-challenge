@@ -75,3 +75,4 @@ Apply `40` generations of pair insertion to the gene template and find the most 
 # The Code
 
 Your code should be written in clear, clean, standard `C++` free of memory leaks and other errors. It should be easy to read and performant, and demonstrate a solid grasp of the language. Use standard container types as much as possible. It should be free of compile warnings, with no external dependencies. It should compile on either `GCC`, `Clang`, or `MSVC`. Bonus points if it compiles on all 3.
+
