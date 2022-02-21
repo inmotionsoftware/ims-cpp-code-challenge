@@ -46,14 +46,16 @@ void getStringAndFillPairs(string fileName)
     }
 }
 
-
+string getPairInsertion(string pairValues, string insert)
+{
+    return pairValues[0] + insert + pairValues[1];
+}
 
 
 
 int main()
 {
-    getStringAndFillPairs("input.txt");
-    
+    getStringAndFillPairs("input.txt"); 
 
     //Todo: put letter in the middle of the two letters 
     //Todo: create a function that gets the highest and lowest amounts
