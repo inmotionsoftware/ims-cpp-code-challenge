@@ -7,17 +7,20 @@
 #include <vector>
 using namespace std;
 
-int main()
-{
-    string start =  "TAFT";
-    //string end;
 
-    vector<pair<string, string>> pairs;
+
+vector<pair<string, string>> pairs;
+string start;
+
+
+void getStringAndFillPairs(string fileName)
+{
     short loop = 0;
     string input;
     string delimiter = " -> ";
     string token;
-    ifstream myFile("input.txt");
+
+    ifstream myFile(fileName);
     size_t pos = 0;
 
     // Read from the text file
@@ -34,17 +37,27 @@ int main()
             }
 
             pairs.push_back({ token, input });
-            //cout << token << endl;
-            //cout << input << endl;
             loop++;
         }
         // Close the file
         myFile.close();
 
-        //ToDo: move to it's own function
-        //Todo: put letter in the middle of the two letters 
-        //Todo: create a function that gets the highest and lowest amounts
-        //ToDo: loop the function for as many times as the user wants
+        cout << "String and pairs imported";
     }
+}
+
+
+
+
+
+int main()
+{
+    getStringAndFillPairs("input.txt");
+    
+
+    //Todo: put letter in the middle of the two letters 
+    //Todo: create a function that gets the highest and lowest amounts
+    //ToDo: loop the function for as many times as the user wants
+    
 }
 
