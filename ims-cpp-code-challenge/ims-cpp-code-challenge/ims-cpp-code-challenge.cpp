@@ -42,23 +42,31 @@ void getStringAndFillPairs(string fileName)
         // Close the file
         myFile.close();
 
-        cout << "String and pairs imported";
+        cout << "String and pairs imported!\n";
     }
 }
 
-string getPairInsertion(string pairValues, string insert)
+string getIteration(string word)
 {
-    return pairValues[0] + insert + pairValues[1];
+    string newWord;
+    string insert = "a";
+
+    for (size_t i = 0; i < word.length() - 1; i++)
+    {
+        newWord.append(word[i] + insert);
+    }
+
+    string last = word.substr(word.length() - 1);
+    return newWord.append(last).append("\n");
 }
-
-
 
 int main()
 {
     getStringAndFillPairs("input.txt"); 
-
-    //Todo: put letter in the middle of the two letters 
-    //Todo: create a function that gets the highest and lowest amounts
+    cout << getIteration(start);
+     
+    //ToDo: insert letter based on pair
+    //ToDo: create a function that gets the highest and lowest amounts
     //ToDo: loop the function for as many times as the user wants
     
 }
