@@ -40,6 +40,11 @@ int main()
         }
         // Close the file
         myFile.close();
+
+        //ToDo: move to it's own function
+        //Todo: put letter in the middle of the two letters 
+        //Todo: create a function that gets the highest and lowest amounts
+        //ToDo: loop the function for as many times as the user wants
     }
 }
 
