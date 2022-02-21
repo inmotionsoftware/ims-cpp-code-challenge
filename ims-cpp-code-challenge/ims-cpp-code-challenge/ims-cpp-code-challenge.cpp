@@ -46,14 +46,33 @@ void getStringAndFillPairs(string fileName)
     }
 }
 
+string getInsertLetter(string first, string second)
+{
+    for (int i = 0; i < pairs.size(); i++)
+    {
+        //return the first letter and insert value
+        pair<string, string> pair = pairs[i];
+
+        if (first + second == pair.first)
+            return pair.second;
+
+    }
+
+    return "";
+}
+
 string getIteration(string word)
 {
     string newWord;
-    string insert = "a";
+    string letters;
+    string first;
+    string second;
 
     for (size_t i = 0; i < word.length() - 1; i++)
     {
-        newWord.append(word[i] + insert);
+        first = word[i];
+        second = word[i + 1];
+        newWord.append(first).append(getInsertLetter(first, second));
     }
 
     string last = word.substr(word.length() - 1);
@@ -62,12 +81,21 @@ string getIteration(string word)
 
 int main()
 {
+    int count = 40;
+
     getStringAndFillPairs("input.txt"); 
-    cout << getIteration(start);
+
+    //get the first iteration so we can use newWord
+    string newWord = getIteration(start);
+
+    for (int i = 1; i < count; i++)
+        newWord = getIteration(newWord);
+
+
+
+    cout << newWord;
      
-    //ToDo: insert letter based on pair
     //ToDo: create a function that gets the highest and lowest amounts
-    //ToDo: loop the function for as many times as the user wants
     
 }
 
