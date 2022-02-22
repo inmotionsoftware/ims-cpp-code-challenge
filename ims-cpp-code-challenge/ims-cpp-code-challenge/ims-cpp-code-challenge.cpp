@@ -5,6 +5,7 @@
 #include <fstream>
 #include <string>
 #include <vector>
+#include <map>
 using namespace std;
 
 
@@ -79,6 +80,19 @@ string getIteration(string word)
     return newWord.append(last);
 }
 
+void getCharCount(string word)
+{
+    map<char, int> counts;
+    int l = word.length();
+    for(int i = 0; i < word.length(); i++) {
+        counts[word[i]]++;
+    }
+
+    for (const auto count : counts) {
+        cout << count.first << " occurs " << count.second << " times\n";
+    }
+}
+
 int main()
 {
     int count = 40;
@@ -91,12 +105,8 @@ int main()
     for (int i = 1; i < count; i++)
         newWord = getIteration(newWord);
 
+    cout << newWord << "\n";
 
-
-    cout << newWord;
-
-    //ToDo: get this to run 40 x 
-    //ToDo: create a function that gets the highest and lowest amounts
-    
+    getCharCount(newWord);
 }
 

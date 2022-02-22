@@ -1,2 +1,3 @@
 ﻿  ims-cpp-code-challenge.cpp
+C:\dev\ims-cpp-code-challenge\ims-cpp-code-challenge\ims-cpp-code-challenge\ims-cpp-code-challenge.cpp(86,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   ims-cpp-code-challenge.vcxproj -> C:\dev\ims-cpp-code-challenge\ims-cpp-code-challenge\x64\Debug\ims-cpp-code-challenge.exe
