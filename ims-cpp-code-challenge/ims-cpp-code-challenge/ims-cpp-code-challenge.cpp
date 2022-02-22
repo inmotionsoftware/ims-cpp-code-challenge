@@ -76,7 +76,7 @@ string getIteration(string word)
     }
 
     string last = word.substr(word.length() - 1);
-    return newWord.append(last).append("\n");
+    return newWord.append(last);
 }
 
 int main()
@@ -94,7 +94,8 @@ int main()
 
 
     cout << newWord;
-     
+
+    //ToDo: get this to run 40 x 
     //ToDo: create a function that gets the highest and lowest amounts
     
 }
