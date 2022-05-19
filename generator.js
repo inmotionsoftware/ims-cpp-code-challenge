@@ -69,7 +69,7 @@ document.open();
 document.write(sequence);
 document.write('<br>');
 for (const [key, value] of Object.entries(pairs)) {
-    document.write(key, '->', value);
+    document.write(key, ' -> ', value);
     document.write('<br>');
 }
 document.close();

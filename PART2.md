@@ -8,7 +8,7 @@ With the sample data, and `40` generations the most common element is `F` (occur
 
 Our starting example was a good warm up exercice, but now it's time to work with a more complicated data set.
 
-Click [here](https://github.com/inmotionsoftware/ims-cpp-code-challenge/blob/generator/index.html) to generate your input.
+Click [here](https://s3.amazonaws.com/inmotion.web/cpp-code-challenge/index.html) to generate your input.
 
 # The Challenge
 
