@@ -63,4 +63,8 @@ Using the included gene template, Apply `10` generations of the pair insertions 
 
 **What do you get if you take the quantity of the most common gene and subtract the quantity of the least common gene?**
 
+## PART 2
+
+Now that you have mastered the sample input, move on to part 2
+
 [PART 2](PART2.md)
