@@ -18,7 +18,7 @@ Take your input data and try to apply `40` generations of pair insertion to the 
 
 Can't make it in `40` generations? How many generations can you reasonably run? Clever optimizations will help push you closer to `40`, but ultimately the solution will require a unique approach to the problem. It can be solved and doesn't require a supercomputer (generally only takes a few milliseconds when done right).
 
-Please submit your answer along with your sample data and code.
+Solve it to at least `20` generations and then we can talk. Try to get as close to `40` as you can. Please submit your answer along with your sample data and code.
 
 ## The Code
 
