@@ -1,5 +1,3 @@
-const { stringify } = require("querystring");
-
 const n_chars = 10;
 const n_sequence = 20;
 const n_pairs = 100;
@@ -23,10 +21,9 @@ while (Object.keys(characterMap).length < n_chars) {
 }
 
 const characters = Object.keys(characterMap);
-console.log("characters:", JSON.stringify(characters));
+// console.log("characters:", JSON.stringify(characters));
 
 var pairs = {};
-
 
 function recurse(pairs, max, ch1, ch2) {
     if (Object.keys(pairs).length >= max) { return; }
@@ -56,9 +53,9 @@ while (Object.keys(pairs).length < n_pairs) {
     recurse(pairs, n_pairs, ch1, ch2);    
 }
 
-  console.log("--------------------------------------------");
-  console.log("count:", Object.keys(pairs).length);
-  console.log("pairs:", JSON.stringify(pairs));
+// console.log("--------------------------------------------");
+// console.log("count:", Object.keys(pairs).length);
+// console.log("pairs:", JSON.stringify(pairs));
 
 const keys = Object.keys(pairs);
 var sequence = "";
@@ -66,9 +63,13 @@ for (var i = 0; i < n_sequence/2; ++i) {
     const key = randomValue(keys);
     sequence += key;
 }
-console.log(sequence);
+// console.log(sequence);
 
+document.open();
 document.write(sequence);
+document.write('<br>');
 for (const [key, value] of Object.entries(pairs)) {
-    document.writeln(key, '->', value);
+    document.write(key, '->', value);
+    document.write('<br>');
 }
+document.close();

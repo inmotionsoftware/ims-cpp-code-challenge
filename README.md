@@ -78,4 +78,4 @@ Your code should be written in clear, clean, standard `C++` free of memory leaks
 
 # Sample Data
 
-Click [here](generator.js)
+Click [here](index.html) to generate your input
