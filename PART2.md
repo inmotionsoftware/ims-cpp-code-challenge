@@ -1,8 +1,8 @@
 # Part 2
 
-We need to continue our experiement for several more generations. Can you simulate the genes after `40 generations`? 
+We need to continue our experiement for several more generations. Can you simulate the genes after `20 generations`? How about `30 generations`? Can you make it to `40 generations`? 
 
-With the sample data, the most common element is `F` (occurring 2256478763324 times) and the least common element is `J` (occurring 53927705034 times); subtracting these produces `2202551058290`.
+With the sample data, the most common element is `F` (occurring `2256478763324` times) and the least common element is `J` (occurring `53927705034` times); subtracting these produces `2202551058290`.
 
 ## Input Data
 
