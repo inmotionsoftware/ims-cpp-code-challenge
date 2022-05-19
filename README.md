@@ -57,7 +57,7 @@ After `10` generations, `A` occurs `1183` times, `F` occurs `1204` times, `J` oc
 
 Taking the quantity of the most common element `F` (1204) and subtracting the quantity of the least common element `J` (127) produces `1204 - 127 = 1077`. 
 
-## Your Challenge
+## Warm Up Challenge
 
 Using the included gene template, Apply `10` generations of the pair insertions to the gene template and find the most and least common genes in the results. 
 
@@ -65,6 +65,4 @@ Using the included gene template, Apply `10` generations of the pair insertions 
 
 ## PART 2
 
-Now that you have mastered the sample input, move on to part 2
-
-[PART 2](PART2.md)
+Now that you have mastered the sample input, move on to [PART 2](PART2.md)
