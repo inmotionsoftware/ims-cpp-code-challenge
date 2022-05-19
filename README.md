@@ -78,4 +78,4 @@ Your code should be written in clear, clean, standard `C++` free of memory leaks
 
 # Sample Data
 
-Click [here](index.html) to generate your input
+Click [here](https://github.com/inmotionsoftware/ims-cpp-code-challenge/blob/generator/index.html) to generate your input
